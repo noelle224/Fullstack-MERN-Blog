@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;1,100;1,300&family=Open+Sans:ital,wght@1,300&display=swap');
+.top
+{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+    z-index: 999;
+}
+
+Link{
+    text-decoration: none;
+    color: inherit;
+  }
+
+.topImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.topIcon{
+    font-size: 20px;
+    margin-right: 10px;
+    color: #444;
+    cursor: pointer;
+}
+
+
+.topLeft,.topRight{
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topCenter{
+    flex: 6;
+}
+
+.topList{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style:none;
+}
+
+.topListItem{
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.topListItem:hover{
+    color: goldenrod;
+}
+
+.SearchIcon{
+    font-size: 18px;
+    color: #666;
+    cursor: pointer;
+    margin-left: 15px;
+}
